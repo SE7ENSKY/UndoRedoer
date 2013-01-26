@@ -1,7 +1,7 @@
 {
-    "name": "UndoRedoer",
+    "name": "undo-redoer",
     "description": "Simple and robust CoffeeScript/JavaScript library for undo/redo features on plain state object. Full test coverage.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage" : "https://github.com/Se7enSky/UndoRedoer",
     "engines": {"node": "*"},
     "author": "Se7enSky studio <info@se7ensky.com>",

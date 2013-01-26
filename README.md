@@ -6,7 +6,7 @@ Full test coverage and it is using on production as well.
 
 ## Installation
 ```bash
-npm install UndoRedoer
+npm install undo-redoer
 ```
 
 ## Usage

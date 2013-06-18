@@ -5,13 +5,15 @@ Simple and robust CoffeeScript/JavaScript library for undo/redo features on plai
 Full test coverage and it is using on production as well.
 
 ## Installation
+For Node.JS via npm:
 ```bash
 npm install undo-redoer
 ```
-or 
+For browser via bower:
 ```bash
 bower install undo-redoer
 ```
+Or download latest archive from [here](https://github.com/Se7enSky/UndoRedoer/tags).
 
 ## Usage
 ```coffee

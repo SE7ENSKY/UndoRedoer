@@ -8,6 +8,10 @@ Full test coverage and it is using on production as well.
 ```bash
 npm install undo-redoer
 ```
+or 
+```bash
+bower install undo-redoer
+```
 
 ## Usage
 ```coffee
@@ -25,6 +29,9 @@ state =
 
 ur = new UndoRedoer state
 
+ur.canUndo() # false
+ur.canRedo() # false
+
 # push some change
 ur.pushChanges
 	x: 1
@@ -39,7 +46,14 @@ ur.pushChanges
 ur.pushChanges
 	x: undefined
 
+
+ur.canUndo() # true
+ur.canRedo() # false
+
 backDiff = ur.undo() # backDiff now contains reverse change { x:1 }
+
+ur.canUndo() # true
+ur.canRedo() # true
 
 console.log "\nbackDiff:"
 console.dir backDiff # output to console
@@ -50,6 +64,7 @@ console.dir ur.state # check undo'ed state
 
 above example outputs:
 ```
+
 backDiff:
 { x: 1 }
 

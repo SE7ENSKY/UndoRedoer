@@ -1,27 +1,5 @@
 {
 	"name": "undo-redoer",
-	"description": "Simple and robust CoffeeScript/JavaScript library for undo/redo features on plain state object. Full test coverage. For Node.JS and Browser (with AMD support).",
-	"homepage" : "https://github.com/Se7enSky/UndoRedoer",
-	"author": "Se7enSky studio <info@se7ensky.com>",
-	"version": "1.2.2",
-	"main": "UndoRedoer.js",
-	"dependencies": {
-		"lodash": "*"
-	},
-	"repository" : {
-        "type" : "git",
-        "url" : "https://github.com/Se7enSky/UndoRedoer.git"
-    },
-    "licenses": [{
-        "type": "mit"
-    }],
-    "readmeFilename": "README.md",
-    "licenseFilename": "LICENSE",
-    "keywords": [
-        "undo",
-        "redo",
-        "state",
-        "diff",
-        "backdiff"
-    ]
+	"version": "1.2.3",
+	"main": "UndoRedoer.js"
 }

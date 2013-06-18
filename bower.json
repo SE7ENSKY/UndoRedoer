@@ -1,5 +1,8 @@
 {
 	"name": "undo-redoer",
-	"version": "1.2.3",
-	"main": "UndoRedoer.js"
+	"version": "1.2.4",
+	"main": "./UndoRedoer.js",
+    "dependencies": {
+        "lodash": "latest"
+    }
 }

@@ -3,7 +3,7 @@
  * @description Simple and robust CoffeeScript/JavaScript library for undo/redo features on plain state object. Full test coverage. For Node.JS and Browser (with AMD support).
  * @author Se7enSky studio <info@se7ensky.com>
  * @url http://www.se7ensky.com/
- * @version 1.2.0
+ * @version 1.2.1
  * @repository https://github.com/Se7enSky/UndoRedoer
  * @license MIT
  */

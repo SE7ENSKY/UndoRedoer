@@ -1,7 +1,7 @@
 {
     "name": "undo-redoer",
-    "description": "Simple and robust CoffeeScript/JavaScript library for undo/redo features on plain state object. Full test coverage.",
-    "version": "1.0.1",
+    "description": "Simple and robust CoffeeScript/JavaScript library for undo/redo features on plain state object. Full test coverage. For Node.JS and Browser (with AMD support).",
+    "version": "1.2.0",
     "homepage" : "https://github.com/Se7enSky/UndoRedoer",
     "engines": {"node": "*"},
     "author": "Se7enSky studio <info@se7ensky.com>",
@@ -34,6 +34,7 @@
     "licenseFilename": "LICENSE",
 
     "scripts": {
-        "test": "node_modules/mocha/bin/mocha --colors --ui bdd --reporter list --require should --require coffee-script UndoRedoer.test.coffee"
+        "test": "./node_modules/mocha/bin/mocha --colors --ui bdd --reporter list --require should --require coffee-script UndoRedoer.test.coffee",
+        "prepublish": "./node_modules/coffee -cb UndoRedoer.coffee"
     }
 }
